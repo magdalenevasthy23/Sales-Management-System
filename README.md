@@ -14,9 +14,9 @@ This project is built using Python with Streamlit for the frontend interface, Po
 Username: admin  
 Password: admin123  **
 
-To run the project locally, first install the required dependencies using the requirements.txt file. Then, set your PostgreSQL password as an environment variable. After that, run the Streamlit application using the command `streamlit run app.py`. Make sure your PostgreSQL server is running before starting the application.
+To run the project locally, first install the required dependencies (streamlit, psycopg2-binary, pandas, matplotlib). Then, set your PostgreSQL password as an environment variable. After that, run the Streamlit application using the command `streamlit run app.py`. Make sure your PostgreSQL server is running before starting the application.
 
-For the database setup, you need to create a PostgreSQL database named `sales_management`. After creating the database, import the provided `database.sql` file using the command `psql -U postgres -d sales_management -f database.sql`. This will recreate all the necessary tables and sample data required for the project.
+For the database setup, you need to create a PostgreSQL database named `sales_management`. After creating the database, import the provided `database.sql` file. This will recreate all the necessary tables and sample data required for the project.
 
 Please note that this project uses a local PostgreSQL database, and database credentials are not included in the code for security reasons.
 
